@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>
+        Hello dad!
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='jquery-3.2.1.js'><\/script>");
+    </script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+        $("#sup").click(function(){
+            $("#space").slideUp();
+        });
+        $("#sdown").click(function(){
+            $("#space").slideDown();
+        });
+     });
+    </script>
+    </head>
+    <style>
+    div.style1 {
+        background-color: #2C3E50;
+        color:white;
+        margin: 20px 0 20px 0;
+        padding: 20px;
+    }
+    span.style2 {
+        color: red;
+        text-orientation: upright;
+    }
+    .style3 {
+        background-color: #1F3A93;
+        color: crimson;
+        margin: 20px 0 20px 0;
+        padding: 20px;
+    }
+    body, html {
+    height: 100%;
+    margin: 0;
+    }
+    .bg {
+    /* The image used */
+
+    /* Full height */
+    height: 100%;
+    width: 100%; 
+    margin:-2px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+    <body>
+        <!--Your Body comes here-->
+    <img class="bg" src="space.jpg"/>
+    <img class="bg" src="pool.jpg"/>
+    </body>
+</html>
