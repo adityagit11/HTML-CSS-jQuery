@@ -1,0 +1,47 @@
+/*Below code makes default values for margin, padding and border to 0 for every mentioned element.*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*This code align everything in middle, which we did by defing the body*/
+body {
+    text-align: center;
+}
+
+/*This code fixes the header at the top.*/
+header {
+    height: 100px;
+    background: crimson;
+    width: 100%; /*This is for the header to span over the whole page*/
+    z-index: 10; /*This specifies that upon scrolling our content doesn't go over the header
+                   I hav selected a digit 10, you can choose any number (big digit) since it should be always be highest*/
+    position: fixed; 
+}
+
+/*We have to use "#" and then banner because banner is inside another element which is having an id "container"*/
+#banner {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    /*See image 1*/
+    top: 100px;
+    background-image: url("space.jpg");
+}
+
+/*We have to use "#" and then content because content is inside another element which is having an id "container"*/
+#content {
+    width: 100%;
+    position: relative;
+    top: 400px;
+    background-color: grey;
+    height: 1500px;
+}
