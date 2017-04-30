@@ -1,5 +1,10 @@
 # HTML-CSS-jQuery
-HTML-CSS-jQuery Example Repository
+
+# Important links to follow!
+
+- [https://flatuicolors.com/] = Just Click and Pick. At the top there are many options for color mode.
+
+# HTML-CSS-jQuery Example Repository
 
 - Collapsing Header
 - Hover Effect via CSS
