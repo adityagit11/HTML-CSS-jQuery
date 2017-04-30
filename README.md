@@ -3,6 +3,7 @@ HTML-CSS-jQuery Example Repository
 
 - Collapsing Header
 - Hover Effect via CSS
+- Slide over menu
 
 # Collapsing Header
 
