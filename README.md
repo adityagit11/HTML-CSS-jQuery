@@ -28,3 +28,21 @@ alpha:hover {
 ```
 
 So now when you take your mouse at space-picture.jpg it will change to pool-picture.jpg image.
+
+# Slide over Menu
+
+A simple toggle button to slide open the menu and close it.
+
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='jquery-3.2.1.js'><\/script>");
+    </script>
+    <script type="text/javascript">
+        $(function(){
+            $(".nav-toggle").on("click",function(){
+                $(".main-navigation").toggleClass("open");
+            });
+        });
+    </script>
+```
