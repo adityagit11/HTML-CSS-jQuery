@@ -1,0 +1,85 @@
+body {
+  /*
+    This gives the background - color of #22222F
+  */
+  background-color: #22222F; 
+}
+nav {
+  /*
+    The whole navigation bar is top padded of 100px
+  */
+  padding-top: 100px;
+  /*
+    This aligns the navigation bar to center
+  */
+  text-align: center;
+  /*
+    At this point the navigation bar is rechtangular box of 
+    dimension equal to 100px height and 100% width
+    Try this code:
+    
+    background-color: lawngreen;
+  */
+}
+/*
+  This '>' symbol is correct way to depict hirearchy
+*/
+nav > ul {
+  /*
+    Those small dots, black square to depict an unordered list
+    is done by list-style property of css
+
+    list-style: "ul.circle {list-style-type: circle;}" -> Makes
+                small dots in front each unordered list
+    list-style-position: "inside" -> Makes the small dots
+                          inside the list heading
+    we choose list-style: none; -> No list styling occurs
+  */
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  background: #ddd;
+  border-radius: 10px;
+}
+nav > ul > li {
+  float: left;
+  width: 150px;
+  height: 65px;
+  line-height: 65px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+nav > ul > li:hover {
+  background: #d5d5d5;
+  border-radius: 5px;
+}
+
+ul.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0;
+}
+ul.drop-menu li {
+  background: #666;
+  color: rgba(255, 255, 255, 0.7);
+}
+ul.drop-menu li:hover {
+  background: #606060;
+}
+ul.drop-menu li:last-child {
+  border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+  display: none;
+}
+
+li:hover > ul.drop-menu li {
+  display: block;
+}
