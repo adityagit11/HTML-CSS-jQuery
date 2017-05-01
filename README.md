@@ -29,6 +29,8 @@
   $('#yourElement').addClass('animated bounceOutLeft');
   ```
 - [https://minimamente.com/example/magic_animations/] = Another wonderfull CSS libarary
+- [http://tridiv.com/app/] = Website for 3D designing
+- [http://elrumordelaluz.github.io/csshake/#1] Shake Effects
 
 # HTML-CSS-jQuery Example Repository
 
