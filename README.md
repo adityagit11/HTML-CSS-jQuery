@@ -4,6 +4,8 @@
 
 - [https://flatuicolors.com/] = Just Click and Pick. At the top there are many options for color mode.
 - [https://dribbble.com/] = Wonderful design palettes
+- [https://daneden.github.io/animate.css/] = Great Site for css only animations
+  tutorial /------/ How to use it? : [https://www.youtube.com/watch?v=QYQ0I1mvFDE]
 
 # HTML-CSS-jQuery Example Repository
 
