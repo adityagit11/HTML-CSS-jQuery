@@ -28,6 +28,7 @@
   ```
   $('#yourElement').addClass('animated bounceOutLeft');
   ```
+- [https://minimamente.com/example/magic_animations/] = Another wonderfull CSS libarary
 
 # HTML-CSS-jQuery Example Repository
 
