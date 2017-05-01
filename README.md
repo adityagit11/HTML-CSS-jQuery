@@ -3,6 +3,7 @@
 # Important links to follow!
 
 - [https://flatuicolors.com/] = Just Click and Pick. At the top there are many options for color mode.
+- [https://dribbble.com/] = Wonderful design pallets
 
 # HTML-CSS-jQuery Example Repository
 
