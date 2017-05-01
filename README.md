@@ -5,7 +5,29 @@
 - [https://flatuicolors.com/] = Just Click and Pick. At the top there are many options for color mode.
 - [https://dribbble.com/] = Wonderful design palettes
 - [https://daneden.github.io/animate.css/] = Great Site for css only animations
-  tutorial /------/ How to use it? : [https://www.youtube.com/watch?v=QYQ0I1mvFDE]
+  tutorial /------/ How to use it? : [https://www.youtube.com/watch?v=QYQ0I1mvFDE] and
+  [https://www.youtube.com/watch?v=CBQGl6zokMs]
+  To include file (animate.css) link it as another stylesheet
+  ```
+  <head>
+    <link href="style/animate.css" rel="stylesheet"/>
+  </head>
+   <!--Use CDN-->
+   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   </head>
+  ```
+  For CSS
+  ```
+  /*Original Statement*/
+  <button type="button" class="btn-register" id="click-register">Register</button>
+  /*With stylesheet of animate.css*/
+  <button type="button" class="btn-register animated rollIn" id="click-register">Register</button>
+  ```
+  For jQuery:
+  ```
+  $('#yourElement').addClass('animated bounceOutLeft');
+  ```
 
 # HTML-CSS-jQuery Example Repository
 
